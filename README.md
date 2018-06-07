@@ -2,9 +2,9 @@
 
 ## A way to make an adventure game in 2Code.
 
-Start by designing a map in a graphics tool. Imported graphics work best when they are kept in the stretch format applied when they are added to the background. A size of 800x600 seems to work well so the original map should be some multiplies of these sizes with a 4:3 aspect ratio. Cut the map up into 800x600 tiles and preload at the beginning of the code to get the ':capture_xx' name for that resource. Add to the maps[] arrays according to position.
+Start by designing a map in a graphics tool. Imported graphics work best when they are kept in the stretch format applied when they are added to the background. A size of 800x600 seems to work well so the original map should be some multiples of these sizes and have a 4:3 aspect ratio. Cut the map up into 800x600 tiles and preload at the beginning of the code to get the ':capture_xx' name for that resource. Add to the maps[] arrays according to position.
 
-The scroller and moves tabs hold code that manages the player's position and reacts when it appears to go off screen. The code uses the fact that a 2Code object configured to disallow off screen will be automatically moved back to the opposite edge if code moves it beyond an edge.
+The scroller and moves tabs hold code that manages the player's position and reacts when their object appears to go off screen. The code uses the fact that a 2Code object configured to disallow off screen positions will be automatically moved back to the opposite edge if code moves it beyond an edge.
 
 'See code' backed up to code.js when remembered.
 
